@@ -7,7 +7,7 @@ p {
 }
 
 body {
-    background-image: url("../image/scene04.jpeg");
+    background-image: url("../image/scene09.png");
     background-attachment: fixed;
     background-position: center;
     background-size: 100% 100%;
@@ -30,6 +30,7 @@ body {
 }
 
 #tech {
+    background-image: url("../image/scene06.png");
     width: 220px;
     height: 220px;
     background-color: blue;
@@ -39,6 +40,7 @@ body {
 }
 
 #life {
+    background-image: url("../image/scene07.png");
     width: 220px;
     height: 220px;
     background-color: yellow;
@@ -49,6 +51,7 @@ body {
 }
 
 #dream {
+    background-image: url("../image/scene08.png");
     width: 220px;
     height: 220px;
     background-color: violet;
