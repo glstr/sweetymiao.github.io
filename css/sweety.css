@@ -31,34 +31,41 @@ body {
 
 #tech {
     background-image: url("../image/scene06.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 220px;
-    height: 220px;
+    height: 132px;
     background-color: blue;
     border-style: outset;
     position: absolute;
-    top: 50%;
+    top: 60%;
+    left: 7%;
 }
 
 #life {
     background-image: url("../image/scene07.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 220px;
-    height: 220px;
+    height: 132px;
     background-color: yellow;
     border-style: outset;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 40%
 }
 
 #dream {
     background-image: url("../image/scene08.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 220px;
-    height: 220px;
+    height: 132px;
     background-color: violet;
     position: absolute;
     border-style: outset;
-    top: 50%;
-    right: 0%
+    top: 60%;
+    right: 7%
 }
 
 #time {
