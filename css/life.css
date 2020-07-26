@@ -1,0 +1,8 @@
+body {
+    background-image: url("../image/scene01.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-color: rgba(0.0, 0.0, 0.0, 0.4);
+}
