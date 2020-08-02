@@ -7,20 +7,13 @@ body {
     background-size: cover;
 }
 
-#logo {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 5%;
-    left: 40%;
-}
-
 #title {
+    font-size: 30px;
     width: 300px;
     height: 80px;
     position: absolute;
     top: 5%;
-    left: 60%;
+    left: 40%;
 }
 
 #module1 {
@@ -29,6 +22,8 @@ body {
     background-repeat: no-repeat;
     width: 350px;
     height: 150px;
+    border: none;
+    outline: none;
     position: absolute;
     top: 40%;
     left: 15%;
@@ -40,6 +35,8 @@ body {
     background-repeat: no-repeat;
     width: 350px;
     height: 150px;
+    border: none;
+    outline: none;
     position: absolute;
     top: 40%;
     left: 55%;
@@ -51,7 +48,8 @@ body {
     background-repeat: no-repeat;
     width: 350px;
     height: 150px;
-    border-style: outset;
+    border: none;
+    outline: none;
     position: absolute;
     top: 75%;
     left: 15%;
@@ -63,6 +61,8 @@ body {
     background-repeat: no-repeat;
     width: 350px;
     height: 150px;
+    border: none;
+    outline: none;
     position: absolute;
     top: 75%;
     left: 55%;
