@@ -4,6 +4,32 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="css/tech.css">
+    <script src="./live2d/L2Dwidget.min.js"></script>
+    <script type="text/javascript">
+        L2Dwidget.init({
+            model: {
+                jsonPath: './live2d/tororo/assets/tororo.model.json',
+            },
+            display: {
+                superSample: 2,
+                width: 100,
+                height: 101,
+                position: 'right',
+                hOffset: 0,
+                vOffset: 0,
+            },
+            mobile: {
+                show: true,
+                scale: 1,
+                motion: true,
+            },
+            react: {
+                opacityDefault: 0.8,
+                opacityOnHover: 0.2,
+            }
+        })
+    </script>
+
 </head>
 
 <body>
@@ -40,12 +66,12 @@
             </a>
         </div>
         <div>
-            <a href="life.html">
+            <a href="dream.html">
                 梦想
             </a>
         </div>
         <div>
-            <a href="dream.html">
+            <a href="life.html">
                 生活
             </a>
         </div>
