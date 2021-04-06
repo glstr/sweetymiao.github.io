@@ -2,32 +2,64 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/sweety.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>sweety</title>
+
 </head>
 
 <body>
-    <div id="title">
-        小阔爱
+    <div id="page">
+        <div id="header">
+            <div>
+                <a href="index.html" class="logo"><img src="image/logo.png" , alt=""></a>
+                <ul id="navigation">
+                    <li class="selected">
+                        <a href="index.html">小可爱</a>
+                    </li>
+                    <li class="menu">
+                        <a href="life.html">生活</a>
+                    </li>
+                    <li class="menu">
+                        <a href="tech.html">技术</a>
+                    </li>
+                    <li class="menu">
+                        <a href="dream.html">梦想</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="body" class="home">
+            <div class="header">
+            </div>
+        </div>
     </div>
-    <div id="name">
-        二哥&小喵
-    </div>
-    <div>
-        <input id="tech" type="button" value="技术" onclick="location.href='tech.html'">
-        </input>
-    </div>
-    <div>
-        <input id="life" type="button" value="生活" onclick="location.href='life.html'">
-        </input>
-    </div>
-    <div>
-        <input id="dream" type="button" value="梦想" onclick="location.href='dream.html'">
-        </input>
-    </div>
-    <div id="time">
-        <input type="date">
-    </div>
-</body>
 
+    <script src="./live2d/L2Dwidget.min.js"></script>
+    <script>
+        L2Dwidget.init({
+            model: {
+                jsonPath: './live2d/tororo/assets/tororo.model.json',
+            },
+            display: {
+                superSample: 2,
+                width: 100,
+                height: 101,
+                position: 'left',
+                hOffset: 0,
+                vOffset: 0,
+            },
+            mobile: {
+                show: true,
+                scale: 1,
+                motion: true,
+            },
+            react: {
+                opacityDefault: 0.8,
+                opacityOnHover: 0.2,
+            }
+        })
+    </script>
+</body>
 </html>

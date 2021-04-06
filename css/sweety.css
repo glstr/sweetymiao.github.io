@@ -1,76 +1,174 @@
-hr {
-    color: sienna;
-}
-
-p {
-    margin-left: 20px;
-}
-
 body {
-    background-image: url("../image/scene09.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100% 100%;
-    background-size: cover;
-    background-color: rgba(0.0, 0.0, 0.0, 0.4);
+    margin: 0;
+	padding: 0;
+	position: relative;
+	width: auto;
 }
 
-#title {
-    color: black;
-    font-family: sans-serif;
-    font-size: 80px;
-    width: 450px;
-    margin-left: 38%;
+body #page {
+	background: url("../image/bg-home.jpg") no-repeat scroll center top #000000;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+	z-index: 3;
 }
 
-#name {
-    font-size: 20px;
-    width: 200px;
-    margin-left: 45%;
+a {
+	text-decoration: none;
+	outline: none;
+}
+a:active {
+	background: none;
+}
+img {
+	border: none;
 }
 
-#tech {
-    background-image: url("../image/scene06.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 220px;
-    height: 132px;
-    background-color: blue;
-    border-style: outset;
-    position: absolute;
-    top: 60%;
-    left: 7%;
+/*-------------------header style-------------*/
+#header {
+	background: url(../image/bg-transparent1.png) repeat;
+	margin: 0;
+	min-height: 60px;
+	padding: 0;
+	width: auto;
+}
+#header div {
+	margin: 0 auto;
+	max-width: 940px;
+	min-height: 60px;
+	padding: 0 10px;
+}
+#header div a.logo {
+	display: block;
+	float: left;
+	height: 60px;
+	margin: 0 44px 0 0;
+	padding: 0;
+	width: 304px;
+}
+#header div a img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul {
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul li a {
+	color: #ffffff;
+	display: block;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 59px;
+	margin: 0;
+	min-height: 60px;
+	padding: 0 24px;
+ *padding: 0 23px; /* Needed for IE8 and old versions */
+	text-align: center;
+	text-transform: uppercase;
+	width: auto;
+}
+#header div ul li a:hover {
+	background-color: #620031;
+	color: #ffffff;
+}
+#header div ul li.selected a {
+	background-color: #000000;
+	color: #a3a3a3;
+}
+#header div ul li.menu {
+	position: relative;
+}
+#header div ul li.menu ul {
+	display: block;
+	left: -99999px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 60px;
+	width: 142px;
+	z-index: 50;
+}
+#header div ul li.menu:hover ul.primary {
+	left: 31px;
+}
+#header div ul li.menu ul.primary.selected {
+	left: 31px;
+}
+#header div ul li.menu:hover ul.secondary {
+	left: -20px;
+}
+#header div ul li.menu ul.secondary.selected {
+	left: -20px;
+}
+#header div ul li.menu ul li {
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+#header div ul li.menu ul li a {
+	background-color: #620031;
+	color: #ffffff;
+	display: block;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 60px;
+	margin: 0;
+	min-height: 60px;
+	padding: 0 10px;
+	text-align: center;
+	text-transform: uppercase;
+	width: auto;
+}
+#header div ul li.menu ul.primary.selected li a, #header div ul li.menu ul.secondary.selected li a {
+	background-color: #000000;
+	color: #a3a3a3;
 }
 
-#life {
-    background-image: url("../image/scene07.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 220px;
-    height: 132px;
-    background-color: yellow;
-    border-style: outset;
-    position: absolute;
-    top: 60%;
-    left: 40%
+/*-----------------body style----------------*/
+#body {
+	background-color: #000000;
+	margin: 0;
+	min-height: 808px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
 }
-
-#dream {
-    background-image: url("../image/scene08.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    width: 220px;
-    height: 132px;
-    background-color: violet;
-    position: absolute;
-    border-style: outset;
-    top: 60%;
-    right: 7%
+#body.home {
+	background: none;
+	margin: 0;
+	min-height: 1308px;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
 }
-
-#time {
-    position: absolute;
-    border-style: outset;
-    top: 95%;
-    right: 0%
+#body.home .header {
+	background: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 100%;
+}
+#body.home .header div {
+	margin: 0 auto;
+	max-width: 940px;
+	overflow: hidden;
+	padding: 0 10px;
+	position: relative;
 }
