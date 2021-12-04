@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<p>
+    文件列表
+</p>
+
+<form id="form_submit" method="post" action="/snow/file/upload" enctype="multipart/form-data">
+    <div>
+      <label for="file">Choose file to upload</label>
+      <input type="file" id="file" name="file" multiple>
+    </div>
+    <div>
+      <button id="button_submit">Submit</button>
+    </div>
+</form>
+
+<div>
+    <button id="button_filelist">当前文件列表</button>
+</div>
+
+<script src="/sweetymiao.github.io/js/jquery-3.6.0.js"></script>
+<script src="/sweetymiao.github.io/js/tech.js"></script>
+
+</html>
