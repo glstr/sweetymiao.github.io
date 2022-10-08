@@ -1,6 +1,6 @@
-@charset "utf-8";*{padding:0;margin:0;}
+@charset "utf-8";
+*{padding:0;margin:0;}
 div{font-family:"微软雅黑";font-size:14px;color:#666;padding:0;margin:0;}
-/*body{background:#eee;}*/
 
 /*css3实现照片墙的样式*/
 .container{width:950px;height:430px;margin:60px auto;position:relative;}
@@ -16,3 +16,12 @@ div{font-family:"微软雅黑";font-size:14px;color:#666;padding:0;margin:0;}
 .pic8{width:256px;height:191px;bottom:-20px;right:630px;-webkit-transform:rotate(5deg);-moz-transform:rotate(5deg);transform:rotate(5deg);}
 .pic9{width:256px;height:191px;top:90px;left:550px;-webkit-transform:rotate(15deg);-moz-transform:rotate(15deg);transform:rotate(15deg);}
 .pic10{width:256px;height:191px;left:180px;top:20px;-webkit-transform:rotate(-10deg);-moz-transform:rotate(-10deg);transform:rotate(-10deg);}
+
+body {
+    background-image: url("../image/life.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+    background-color: rgba(0.0, 0.0, 0.0, 0.4);
+}
